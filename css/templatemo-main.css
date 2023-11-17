@@ -15,6 +15,38 @@ http://www.templatemo.com/tm-512-moonlight
     opacity: 0;
   }
 }
+.present {
+	margin: 0px;
+}
+.social-links {
+	margin-top: 40px;
+	display: flex;
+	padding-left: 10%;
+  }
+  
+.social-links a {
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	line-height: 1;
+	margin-right: 8px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+  }
+  
+.social-links a:hover {
+	background: #18d26e;
+  }
+
+  @media (max-width: 992px) {
+	#header .social-links {
+	  margin-top: 15px;
+	}
+  }
 
 .seq-preloader {
   background: white;
@@ -198,8 +230,9 @@ nav .logo {
 }
 
 nav .logo img {
-	max-width: 100%;
+	max-width: 25%;
 	overflow-y: hidden;
+	border-radius: 24%;
 }
 
 nav ul {
@@ -235,8 +268,8 @@ nav a {
   	z-index: 0;
 }
 nav a.active {
-  background-color: #fff;
-  color: #232323;
+  background-color: #18d26e;
+  color: #000;
 }
 nav a::before {
   content: "";
@@ -415,6 +448,7 @@ nav a:hover::before {
 }
 
 .second-content .right-image img {
+	margin-top: 10%;
 	max-width: 100%;
 	min-width: 100%;
 	overflow: hidden;
@@ -729,7 +763,7 @@ nav a:hover::before {
 	}
 
 	.first-content .author-image img {
-		max-width: 195px;
+		max-width: 200px;
 		float: none;
 		margin-right: 0px;
 		margin-bottom: 30px;
@@ -780,10 +814,11 @@ nav a:hover::before {
 		display: none;
 	}
 
-	nav .mini-logo {
+	/* nav .mini-logo {
 		margin-top: 60px;
 		display: block;
-	}
+		max-width: 25%;
+	} */
 
 	nav ul {
 		text-align: center;
