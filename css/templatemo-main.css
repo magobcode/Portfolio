@@ -15,9 +15,15 @@ http://www.templatemo.com/tm-512-moonlight
     opacity: 0;
   }
 }
+
+.softwareDev{
+	margin-top: 20%;
+}
+
 .present {
 	margin: 0px;
 }
+
 .social-links {
 	margin-top: 40px;
 	display: flex;
@@ -41,6 +47,37 @@ http://www.templatemo.com/tm-512-moonlight
 .social-links a:hover {
 	background: #18d26e;
   }
+
+.H3-3{
+	font-size: 36px;
+	color: #18d26e;
+	text-transform: uppercase;
+    font-weight: 700;
+	letter-spacing: 0.5px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+ul li{
+    list-style-type: none;
+	color: #18d26e;
+	}
+
+ul span{
+	color: #fff;
+	font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+ul strong{
+	color: #e0e0e0;
+	font-size: 13px;
+}
 
   @media (max-width: 992px) {
 	#header .social-links {
@@ -327,6 +364,10 @@ nav a:hover::before {
     background: rgba(250, 250, 250, 0.5);
 }
 
+.thumb a{
+	color: #fff;
+}
+
 .slides .slide:nth-child(1) {
   background-image: url(../img/fondo-abstracto-corte-papel-arte-talla-oscura-limpia-3d-arte-papel-ondas-negras-diseno-moderno-minimalista-presentaciones-negocios_1217-2497.avif);
 }
@@ -460,17 +501,17 @@ nav a:hover::before {
 	text-align: left;
 }
 
-.second-content h2 {
+.second-content h3 {
 	font-size: 36px;
+	color: #18d26e;
 	text-transform: uppercase;
-	font-weight: 700;
-	color: #fff;
+    font-weight: 700;
 	letter-spacing: 0.5px;
-	border-bottom: 2px solid #fff;
-	display: inline-block;
-	padding-bottom: 10px;
-	margin-bottom: 20px;
-	margin-top: 0px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .second-content p {
@@ -497,6 +538,7 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.5s;
+	margin-bottom: 14px;
 }
 
 
